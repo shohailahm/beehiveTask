@@ -18,9 +18,9 @@ type PriceData = {
   duration: string;
 };
 
-function getImgUrl(name: string) {
-  return new URL(`${name}`, import.meta.url).href;
-}
+// function getImgUrl(name: string) {
+//   return new URL(`${name}`, import.meta.url).href;
+// }
 /**
  * Functional component for displaying location cards.
  * @param {string} location - The location name.
