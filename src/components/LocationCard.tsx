@@ -6,7 +6,7 @@ export type LocationCardProps = {
   location: string;
   workspaceImageSrc?: string;
   categoryImageSrc?: string;
-  discountText: string;
+  discountText?: string;
   discountObj: { [key: string]: DayPassDiscountsPercentage };
   mainImgSrc: string;
   day_pass_price: number;

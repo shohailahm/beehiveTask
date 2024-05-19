@@ -1,6 +1,6 @@
 import * as React from "react";
 import ImageComponent from "../components/ImageComponent";
-import LocationCard, { LocationCardProps } from "../components/LocationCard";
+import LocationCard from "../components/LocationCard";
 import FirstSection from "../components/FirstSection";
 import useWorkSpaceStore from "../stores/workspaceStores";
 import data from "../data.json";

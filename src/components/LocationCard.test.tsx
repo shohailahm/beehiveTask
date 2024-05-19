@@ -1,9 +1,7 @@
 // LocationCard.test.tsx
-import React from "react";
 import { render } from "@testing-library/react";
 import { describe, it, expect, vi } from "vitest";
 import LocationCard, { LocationCardProps } from "./LocationCard";
-import ImageComponent from "./ImageComponent";
 
 // Mock ImageComponent to avoid actual image loading during tests
 vi.mock("./ImageComponent", () => ({
