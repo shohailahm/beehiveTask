@@ -70,7 +70,7 @@ const LocationCard: React.FC<LocationCardProps> = ({
         </div>
         <div className="flex overflow-hidden relative flex-col items-start pt-2 pb-20 mt-4 w-full text-sm text-yellow-500 whitespace-nowrap aspect-[1.71] tracking-[2px]">
           <ImageComponent
-            src={getImgUrl(`../${mainImgSrc}`)}
+            src={mainImgSrc}
             alt=""
             className="object-cover absolute inset-0 size-full"
           />
